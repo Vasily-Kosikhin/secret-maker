@@ -1,0 +1,44 @@
+.app {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    width: 600px;
+    height: 300px;
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .secretBody {
+    width: 600px;
+    height: 150px;
+    font-size: 40px;
+  }
+  .sendRequestButton {
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+   background-color:  rgb(100, 172, 100);
+   font-size: 20px;
+  }
+  .requestContainer {
+    width: 800px;
+    height: 200px;
+    background-color: rgb(171, 199, 153);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+  }
+}
